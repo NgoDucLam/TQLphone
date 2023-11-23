@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".dangnhap">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-100dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng Nhập"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên đăng nhập"
+        android:layout_marginRight="130dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        />
+    <EditText
+        android:id="@+id/txttendn"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Mật khẩu"
+        android:layout_marginRight="147dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        android:textSize="15dp"
+        />
+    <EditText
+        android:id="@+id/txtmkdn"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+        <Button
+            android:id="@+id/btndangnhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Đăng Nhập"/>
+        <Button
+            android:id="@+id/btnhuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Hủy"/>
+
+    </LinearLayout>
+
+</LinearLayout>

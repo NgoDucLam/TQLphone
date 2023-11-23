@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/danhsach"
+        android:icon="@drawable/home"
+        android:title="Danh Sách Điện Thoại" />
+    <item
+        android:id="@+id/quanlyhang"
+        android:icon="@drawable/bookmark"
+        android:title="Quản Lý Loại Hãng" />
+    <item
+        android:id="@+id/quanlykhachhang"
+        android:icon="@drawable/bookmark"
+        android:title="Quản Lý Khách Hàng" />
+    <item
+        android:id="@+id/giohang"
+        android:icon="@drawable/bookmark"
+        android:title="Giỏ Hàng" />
+    <item
+        android:id="@+id/hoadon"
+        android:icon="@drawable/bookmark"
+        android:title="Hóa Đơn" />
+    <group android:checkableBehavior="single">
+        <item android:title="Thống Kê">
+            <menu>
+                <item
+                    android:id="@+id/doanhthu"
+                    android:icon="@drawable/bookmark"
+                    android:title="Doanh thu" />
+            </menu>
+        </item>
+    </group>
+    <item
+    android:id="@+id/dangxuat"
+    android:icon="@drawable/bookmark"
+    android:title="Đăng xuất" />
+</menu>
